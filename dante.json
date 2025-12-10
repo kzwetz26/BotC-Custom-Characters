@@ -1,0 +1,204 @@
+[
+  {
+    "id": "_meta",
+    "name": "Abandon All Hope",
+    "author": "Kyle Zwetz",
+    "almanac": "https://www.bloodstar.xyz/p/kzwetz/dante/almanac.html"
+  },
+  {
+    "id": "kingminos_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/kingminos_dante.png",
+    "firstNightReminder": "Wake up King Minos. Show them their minions and their bluffs. ",
+    "otherNightReminder": "Wake up King Minos. Have them point to two players, one after the other. Put King Minos to sleep, then wake up the first chosen player. Point to the other chosen player, then have the first chosen player choose which player lives.",
+    "name": "King Minos",
+    "team": "demon",
+    "ability": "Each night*, choose two players. The first chosen player must decide to either die or kill the second chosen player.",
+    "firstNight": 11,
+    "otherNight": 2
+  },
+  {
+    "id": "hangman_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/hangman_dante.png",
+    "otherNightReminder": "Wake the Hangman. Have them give a thumbs up to use their ability, or a thumbs down to not.",
+    "reminders": [
+      "Used ability"
+    ],
+    "name": "Hangman",
+    "team": "minion",
+    "ability": "Once per game, at night, you may choose to force the second player chosen by King Minos to die. Bypasses protection.",
+    "otherNight": 3
+  },
+  {
+    "id": "poet_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/poet_dante.png",
+    "otherNightReminder": "Wake the Poet and have them point to a player. Give a thumbs up if that player's action caused a death tonight.",
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player. You learn whether their decisions tonight directly caused a death.",
+    "otherNight": 13
+  },
+  {
+    "id": "penitent_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/penitent_dante.png",
+    "name": "Penitent",
+    "team": "outsider",
+    "ability": "If you are still alive the following day after being chosen first at night by King Minos, a player may swap alignments for the rest of the game. "
+  },
+  {
+    "id": "empath_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/empath_dante.png",
+    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "name": "Empath",
+    "team": "townsfolk",
+    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "firstNight": 12,
+    "otherNight": 4
+  },
+  {
+    "id": "monk_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/monk_dante.png",
+    "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
+    "reminders": [
+      "Protected"
+    ],
+    "name": "Monk",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+    "otherNight": 5
+  },
+  {
+    "id": "soldier_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/soldier_dante.png",
+    "name": "Soldier",
+    "team": "townsfolk",
+    "ability": "You are safe from the Demon."
+  },
+  {
+    "id": "drunk_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/drunk_dante.png",
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "setup": true,
+    "name": "Drunk",
+    "team": "outsider",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+  },
+  {
+    "id": "recluse_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/recluse_dante.png",
+    "name": "Recluse",
+    "team": "outsider",
+    "ability": "You might register as evil & as a Minion or Demon, even if dead."
+  },
+  {
+    "id": "poisoner_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/poisoner_dante.png",
+    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "name": "Poisoner",
+    "team": "minion",
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+    "firstNight": 13,
+    "otherNight": 6
+  },
+  {
+    "id": "spy_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/spy_dante.png",
+    "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "name": "Spy",
+    "team": "minion",
+    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+    "firstNight": 14,
+    "otherNight": 7
+  },
+  {
+    "id": "scarletwoman_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/scarletwoman_dante.png",
+    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
+    "reminders": [
+      "Demon"
+    ],
+    "name": "Scarlet Woman",
+    "team": "minion",
+    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
+    "otherNight": 8
+  },
+  {
+    "id": "fool_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/fool_dante.png",
+    "reminders": [
+      "No ability"
+    ],
+    "name": "Fool",
+    "team": "townsfolk",
+    "ability": "The first time you die, you don't."
+  },
+  {
+    "id": "oracle_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/oracle_dante.png",
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "name": "Oracle",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "otherNight": 9
+  },
+  {
+    "id": "seamstress_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/seamstress_dante.png",
+    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "reminders": [
+      "No ability"
+    ],
+    "name": "Seamstress",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "firstNight": 15,
+    "otherNight": 10
+  },
+  {
+    "id": "artist_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/artist_dante.png",
+    "reminders": [
+      "No ability"
+    ],
+    "name": "Artist",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question."
+  },
+  {
+    "id": "sweetheart_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/sweetheart_dante.png",
+    "otherNightReminder": "Choose a player that is drunk.",
+    "reminders": [
+      "Drunk"
+    ],
+    "name": "Sweetheart",
+    "team": "outsider",
+    "ability": "When you die, 1 player is drunk from now on.",
+    "otherNight": 11
+  },
+  {
+    "id": "amnesiac_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/amnesiac_dante.png",
+    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "reminders": [
+      "?"
+    ],
+    "name": "Amnesiac",
+    "team": "townsfolk",
+    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "firstNight": 16,
+    "otherNight": 12
+  },
+  "banshee",
+  "knight",
+  "highpriestess"
+]
