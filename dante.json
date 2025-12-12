@@ -25,7 +25,7 @@
     ],
     "name": "Hangman",
     "team": "minion",
-    "ability": "Once per game, at night, you may choose to force the second player chosen by King Minos to die. Bypasses protection.",
+    "ability": "Once per game, at night, you may choose to force both players chosen by King Minos to die. Bypasses protection.",
     "otherNight": 3
   },
   {
@@ -34,7 +34,7 @@
     "otherNightReminder": "Wake the Poet and have them point to a player. Give a thumbs up if that player's action caused a death tonight.",
     "name": "Poet",
     "team": "townsfolk",
-    "ability": "Each night*, choose a player. You learn whether their decisions tonight directly caused a death.",
+    "ability": "Each night*, choose a player. You learn if they were one of the two players chosen by King Minos tonight.",
     "otherNight": 13
   },
   {
@@ -42,7 +42,7 @@
     "image": "https://www.bloodstar.xyz/p/kzwetz/dante/penitent_dante.png",
     "name": "Penitent",
     "team": "outsider",
-    "ability": "If you are still alive the following day after being chosen first at night by King Minos, a player may swap alignments for the rest of the game. "
+    "ability": "If you are one of the two players chosen by King Minos, either one of the two players chosen may die."
   },
   {
     "id": "empath_dante",
@@ -105,17 +105,6 @@
     "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
     "firstNight": 13,
     "otherNight": 6
-  },
-  {
-    "id": "spy_dante",
-    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/spy_dante.png",
-    "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
-    "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
-    "name": "Spy",
-    "team": "minion",
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
-    "firstNight": 14,
-    "otherNight": 7
   },
   {
     "id": "scarletwoman_dante",
@@ -200,5 +189,7 @@
   },
   "banshee",
   "knight",
-  "highpriestess"
+  "highpriestess",
+  "tinker",
+  "assassin"
 ]
