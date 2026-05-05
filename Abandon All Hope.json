@@ -1,0 +1,69 @@
+[
+  {
+    "id": "_meta",
+    "author": "Me",
+    "name": "Abandon All Hope"
+  },
+  "knight",
+  "grandmother",
+  "empath",
+  "highpriestess",
+  "mathematician",
+  "oracle",
+  "monk",
+  "seamstress",
+  {
+    "id": "poet_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/poet_dante.png",
+    "otherNightReminder": "Wake the Poet. Have them give a thumbs up to use their ability, or a thumbs down to not.",
+    "reminders": [
+      "Used ability"
+    ],
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, learn the player chosen by King Minos that survived tonight and their character.",
+    "otherNight": 50
+  },
+  "artist",
+  "soldier",
+  "cannibal",
+  "banshee",
+  "drunk",
+  "tinker",
+  "recluse",
+  "sweetheart",
+  "poisoner",
+  "xaan",
+  "scarletwoman",
+  {
+    "id": "hangman_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/hangman_dante.png",
+    "otherNightReminder": "Wake the Hangman. Have them give a thumbs up to use their ability, or a thumbs down to not.",
+    "reminders": [
+      "Used ability"
+    ],
+    "name": "Hangman",
+    "team": "minion",
+    "ability": "Once per game, at night*, force both players chosen by King Minos to die, even if for some reason one or both players could not.",
+    "otherNight": 49
+  },
+  {
+    "id": "kingminos_dante",
+    "image": "https://www.bloodstar.xyz/p/kzwetz/dante/kingminos_dante.png",
+    "firstNightReminder": "Wake up King Minos. Show them their minions and their bluffs.",
+    "otherNightReminder": "Wake up King Minos. Have them point to two players, one after the other. Put King Minos to sleep, then wake up the first chosen player. Point to the other chosen player, then have the first chosen player choose which player dies.",
+    "reminders": [
+      "Choice 1", "Choice 2"
+    ],
+    "name": "King Minos",
+    "team": "demon",
+    "ability": "Each night*, choose two players. The first must decide to either die or kill the second. The first player chosen tonight cannot be the same player chosen first last night.",
+    "firstNight": 11,
+    "otherNight": 25
+  },
+  "beggar",
+  "bonecollector",
+  "apprentice",
+  "voudon",
+  "judge"
+]
